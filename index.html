@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Anita's Workout Plan" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Anita's Workout Plan</title>
+  </head>
+  <body>
+    <h2>Anita's Workout Plan</h2>
+    <h1>Anita's Kickass Rocky-Crazed Workout Plan!!!</h1>
+    <hr />
+    <!-- Weekly Table -->
+    <table>
+        <caption>Weekly Plan</caption>
+        <tr>
+            <th>Day</th>
+            <th>Activity Type</th>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Total rest</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Strength Training</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Cardio</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Strength Training</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Cardio</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Strength Training</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Saturday Funday!</td>
+        </tr>
+        
+    </table>
+    <br />
+
+    <form>
+      <fieldset>
+        <legend>Strength Training</legend>
+        <p>
+          Select one exercise from each box.
+          <br />
+          For abdominals and quads, select two.
+        </p>
+
+        <label for="arms">Arms:</label>
+        <select name="arms" id="arms">
+          <option value="DB Curl">DB Curl</option>
+          <option value="BB Curl">BB Curl</option>
+          <option value="Hammer Curl">Hammer Curl</option>
+          <option value="Concentration Curl">Concentration Curl</option>
+          <option value="EZ Bar Curl">EZ Bar Curl</option>
+        </select>
+        <br />
+        <label for="upperBack">Upper Back</label>
+        <select name="upperBack" id="upperBack">
+          <option value="one arm db rows">One Arm DB Rows</option>
+          <option value="wide-grip lat pulldowns">
+            Wide-Grip Lat Pulldowns
+          </option>
+          <option value="seated rows">Seated Rows</option>
+        </select>
+        <br />
+        <label for="Lower Back">Lower Back</label>
+        <select name="Lower Back" id="Lower Back">
+          <option value="Deadlift">Deadlift</option>
+          <option value="Good Mornings">Good Mornings</option>
+          <option value="Superman">Superman</option>
+        </select>
+        <br />
+        <label for="Shoulders">Shoulders</label>
+        <select name="Shoulders" id="Shoulders">
+          <option value="Arnold Press">Arnold Press</option>
+          <option value="Military Press">Military Press</option>
+          <option value="Shrugs">Shrugs</option>
+        </select>
+        <br />
+        <label for="Chest">Chest</label>
+        <select name="Chest" id="Chest">
+          <option value="Push-Ups">Push-Ups</option>
+          <option value="Bench Press">Bench Press</option>
+          <option value="DB Flyes">DB Flyes</option>
+        </select>
+        <br />
+        <label for="Abs">Abs</label>
+        <select name="Abs" id="Abs" multiple>
+          <option value="Sit-Ups">Sit-Ups</option>
+          <option value="Roman Chair Sit Ups">Roman Chair Sit Ups</option>
+          <option value="Leg Lifts">Leg Lifts</option>
+          <option value="Crunches">Crunches</option>
+          <option value="Russian Twist">Russian Twist</option>
+        </select>
+        <br />
+        <label for="Quads">Quads</label>
+        <select name="Quads" id="Quads" multiple>
+          <option value="Step Climber">Step Climber</option>
+          <option value="Squats">Squats</option>
+          <option value="Leg Extentions">Leg Extentions</option>
+          <option value="Lunges">Lunges</option>
+          <option value="Speedskater Jumps">Speedskater Jumps</option>
+        </select>
+        <br />
+        <label for="Hams">Hams</label>
+        <select name="hams" id="Hams">
+          <option value="Hamstring Curl">Hamstring Curl</option>
+          <option value="Glute Bridge">Glute Bridge</option>
+          <option value="DB Romanian Deadlift">DB Romanian Deadlift</option>
+        </select>
+        <br />
+        <label for="Calves">Calves</label>
+        <select name="Calves" id="Calves">
+          <option value="Calf Raises">Calf Raises</option>
+          <option value="Single Leg Calf Raise">Single Leg Calf Raise</option>
+          <option value="Donkey Raises">Donkey Raises</option>
+        </select>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
